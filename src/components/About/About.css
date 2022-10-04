@@ -1,0 +1,68 @@
+.container-about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: white;
+  color: black;
+  height: 80vh;
+  padding: 50px 0 50px 0;
+}
+.fotoPerfil > img {
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 20%;
+  border-radius: 9999px;
+  transition: all 1s;
+}
+.fotoPerfil > img:hover {
+  width: 55%;
+  box-shadow: -2px 3px 0px 2px #f966669a;
+  transition: 0.8s;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.description > h3 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.description > p {
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: auto;
+  }
+  .description {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px 50px 20px;
+  }
+  .description > h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .fotoPerfil {
+    width: 100%;
+    text-align: center;
+  }
+  .fotoPerfil > img {
+    width: 80%;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 9999px;
+  }
+  .fotoPerfil > img:hover {
+    width: 80%;
+    border-radius: 9999px;
+    justify-content: center;
+  }
+}
