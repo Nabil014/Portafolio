@@ -26,7 +26,7 @@ const Footer = () => {
       <div className="footer-sns">
         <div className="desing-by">Diseñado por Nabil Allis</div>
         <div className="sns-links">
-          <a href="www.linkedin.com/in/nabil-allis" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/nabil-allis/" target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin linkedin"></i>
           </a>
           <a href="https://github.com/Nabil014" target="_blank" rel="noreferrer">
