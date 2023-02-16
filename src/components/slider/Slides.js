@@ -18,11 +18,11 @@ const slidesInfo = [
     link: "https://pi-countries-main-tau.vercel.app/",
   },
   {
-    src: "https://res.cloudinary.com/demf45vva/image/upload/v1664404878/weather_portada_lsuod5.jpg",
+    src: "https://res.cloudinary.com/demf45vva/image/upload/v1676554046/weather2_h4ji7y.jpg",
     alt: "weather img",
     title: "Weather App",
     desc: "Es una app que permite saber la temperatura de cualquier ciudad del mundo.",
-    link: "https://app-wethear.vercel.app/",
+    link: "https://weather-app-beta-roan.vercel.app/",
   },
 ];
 
