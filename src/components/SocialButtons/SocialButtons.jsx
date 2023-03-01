@@ -2,7 +2,6 @@ import React from 'react'
 import './SocialButtons.css'
 
 export function SocialButtons ({ scrolling }) {
-  console.log(scrolling.current)
   return (
     <div className={`${scrolling.current > 0.15 ? 'box' : 'box-none'}`}>
       <div className="container-social">

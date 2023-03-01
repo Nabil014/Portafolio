@@ -10,6 +10,8 @@ import { useScroll } from 'framer-motion'
 
 function App() {
   const [scrollHeigth, setScrollHeigth] = useState(0)
+  const { scrollYProgress } = useScroll()
+
   const handleScroll = () => {
     const position = window.pageYOffset
     setScrollHeigth(position)
@@ -17,8 +19,6 @@ function App() {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
   }, [scrollHeigth])
-
-  const { scrollYProgress } = useScroll()
 
   return (
     <div className='App'>
