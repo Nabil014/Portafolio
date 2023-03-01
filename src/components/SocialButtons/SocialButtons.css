@@ -47,6 +47,11 @@
   font-size: 25px;
   color: #fff;
 }
+.container-social .icon span .fa-id-card {
+  line-height: 60px;
+  font-size: 25px;
+  color: #000000;
+}
 
 .container-social .icon .tooltip {
   position: absolute;
@@ -97,10 +102,20 @@
 .container-social .github span {
   border-radius: 10px;
 }
+.container-social .cv span {
+  border-radius: 10px;
+}
 
 .container-social .github span,
 .container-social .github .tooltip,
 .container-social .github .tooltip:before {
   background: #333;
   color: #fff;
+  margin-bottom: 5px;
+}
+.container-social .cv span,
+.container-social .cv .tooltip,
+.container-social .cv .tooltip:before {
+  background: #f7df1e;
+  color: #000000;
 }

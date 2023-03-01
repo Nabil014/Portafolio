@@ -30,6 +30,15 @@ const Projects = () => {
           )
         })}
       </div>
+      <div className='frase'>
+        <img
+          src='/icons/right-quotation-com.png'
+          alt='quotation marks'
+        />
+        <span>
+          Creando soluciones completas para hacer posible lo imposible.
+        </span>
+      </div>
     </div>
   )
 }

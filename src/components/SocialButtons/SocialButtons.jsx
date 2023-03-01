@@ -20,6 +20,13 @@ export function SocialButtons ({ scrolling }) {
           <span><a href="https://github.com/Nabil014" target='_blank' rel='noreferrer'><i className="fab fa-github"></i></a></span>
         </div>
 
+        <div className="icon cv">
+          <div className="tooltip">
+            CV
+          </div>
+          <span><a href="https://docs.google.com/document/d/1EdRTGak2KYLeiU7I2Mo3gpk8DlaYlOtIfuLt7V4ZV5o/edit?usp=sharing" target='_blank' rel='noreferrer'><i className="fa fa-id-card"></i></a></span>
+        </div>
+
       </div >
     </div >
   )

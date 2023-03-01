@@ -21,6 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 4rem;
 }
 
 .item {
@@ -103,6 +104,21 @@ img {
 }
 .svg {
   width: 30px;
+}
+.frase {
+  display: flex;
+  justify-content: center;
+  background-color: #e2e2e2;
+  padding: 0.5rem;
+}
+.frase span {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+.frase img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 960px) {
