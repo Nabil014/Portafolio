@@ -1,32 +1,34 @@
-import React, {useState,useEffect} from 'react';
+import React, { useState, useEffect } from 'react'
+import './App.css'
 
-import './App.css';
-import About from './components/About/About';
+import About from './components/About/About'
 import Cover from './components/cover/Cover'
-import Footer from './components/Footer/Footer';
-import NavBar from './components/navbar/NavBar';
-import Slider from './components/slider/Slider';
-import Tech from './components/Tech/Tech';
+import NavBar from './components/navbar/NavBar'
+import Projects from './components/projects/Projects'
+import { SocialButtons } from './components/SocialButtons/SocialButtons'
+import { useScroll } from 'framer-motion'
 
 function App() {
   const [scrollHeigth, setScrollHeigth] = useState(0)
-  const handleScroll = ()=>{
-    const position = window.pageYOffset;
+  const handleScroll = () => {
+    const position = window.pageYOffset
     setScrollHeigth(position)
   }
-  useEffect(()=>{
-    window.addEventListener("scroll",handleScroll)
-  },[scrollHeigth])
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+  }, [scrollHeigth])
+
+  const { scrollYProgress } = useScroll()
+
   return (
-    <div className="App">
-      <NavBar scrolling={scrollHeigth}/>
-      <Cover/>
-      <About/>
-      <Slider/>
-      <Tech/>
-      <Footer/>
+    <div className='App'>
+      <NavBar scrolling={scrollYProgress} />
+      <Cover />
+      <SocialButtons scrolling={scrollYProgress} />
+      <About />
+      <Projects />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

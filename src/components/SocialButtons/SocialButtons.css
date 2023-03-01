@@ -1,0 +1,106 @@
+.box {
+  display: grid;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ed 74%);
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.box-none {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.container-social {
+  position: fixed;
+  top: 35vh;
+  z-index: 50;
+}
+
+.container-social .icon {
+  margin: 0 5px;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.52, -0.5, 0.212, 1.45);
+}
+
+.container-social .icon span {
+  position: relative;
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border-radius: 0%;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.52, -0.5, 0.212, 1.45);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-social .icon span i {
+  line-height: 60px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.container-social .icon .tooltip {
+  position: absolute;
+  background: #fff;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 0px;
+  top: 20px;
+  left: 80px;
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s cubic-bezier(0.52, -0.5, 0.212, 1.45);
+}
+
+.container-social .icon:hover .tooltip {
+  top: -0px;
+  opacity: 1;
+  margin-top: 10px;
+  pointer-events: auto;
+}
+
+.icon .tooltip:before {
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 3px;
+  bottom: 15px;
+  transform: translate(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.52, -0.5, 0.212, 1.45);
+}
+
+.container-social .linkedin span,
+.container-social .linkedin .tooltip,
+.container-social .linkedin .tooltip:before {
+  background: #3b5999;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.container-social .linkedin span {
+  border-radius: 10px;
+}
+.container-social .github span {
+  border-radius: 10px;
+}
+
+.container-social .github span,
+.container-social .github .tooltip,
+.container-social .github .tooltip:before {
+  background: #333;
+  color: #fff;
+}

@@ -1,0 +1,112 @@
+.container-projects {
+  display: flex;
+  background-color: #424242;
+  padding: 50px 0 30px 0;
+  /* box-shadow: 3px 0px 3px 2px #f5522e; */
+  flex-direction: column;
+  overflow: hidden;
+}
+.container-projects h2 {
+  color: #e2e2e2;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Shantell Sans', cursive;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  flex: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.square:hover {
+  -webkit-transform: translate(20px, -10px);
+  -ms-transform: translate(10px, -10px);
+  transform: translate(10px, -10px);
+  border: none;
+  box-shadow: 0px 0px 10px 5px rgb(223, 211, 211);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.square {
+  width: 390px;
+  height: 475px;
+  background: rgb(61, 61, 61);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.884);
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.479);
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: black 1px solid;
+}
+
+.mask {
+  clip: rect(0px, 390px, 220px, 0px);
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  width: 390px;
+}
+.text {
+  padding: 10px;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+.text h2 {
+  color: white;
+  position: relative;
+  font-size: 24px;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 0.5rem;
+}
+.text p {
+  font-size: 13px;
+  color: white;
+  line-height: 18px;
+  margin-bottom: 1rem;
+  font-family: 'Shantell Sans', cursive;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 98%;
+}
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.text strong {
+  color: white;
+  font-family: 'Shantell Sans', cursive;
+  font-weight: 300;
+}
+.svg {
+  width: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  .container-projects {
+    flex-direction: column;
+  }
+}

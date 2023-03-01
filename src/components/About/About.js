@@ -5,14 +5,18 @@ import Perfil from '../../media/perfil.png'
 const About = () => {
   return (
     <div className='container-about'>
-         <div className='fotoPerfil'>
-            <img src={Perfil} alt='img'/>
-        </div>
-        <div className='description'>
-            <h3>Te cuento un poco sobre mi..</h3>
-            <p>Hola! soy Nabil, un argentino apasionado por la tecnología y el desarrollo web. Me encuentro en constante búsqueda de nuevos desafios para seguir creciendo como programador Full Stack. Soy una persona proactiva, comprometida y muy responsable con su trabajo. Me gusta el trabajo en equipo y siempre trato de ayudar a los demás intercambiando conocimiento.</p>
-        </div>
-       
+      <div className='fotoPerfil'>
+        <img
+          src='https://res.cloudinary.com/demf45vva/image/upload/v1677533249/1677533150064_xv5tbc.jpg'
+          alt='imagen de perfil'
+        />
+      </div>
+      <div className='description'>
+        <h3>Te cuento un poco sobre mi..</h3>
+        <p>
+          Hola! 👋 soy Nabil, argentino apasionado por el desarrollo web y la tecnología. Me encanta enfrentar nuevos desafíos que me ayuden a seguir mejorando como programador. Me considero una persona responsable, comprometida y busco ser el mejor desarrollador del mundo!!!
+        </p>
+      </div>
     </div>
   )
 }
