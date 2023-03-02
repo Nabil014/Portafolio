@@ -1,4 +1,5 @@
 import React from 'react'
+import { RoughNotation, RoughNotationGroup } from 'react-rough-notation'
 import './About.css'
 
 const About = () => {
@@ -14,10 +15,19 @@ const About = () => {
         <h3>Te cuento un poco sobre mi..</h3>
         <p>
           Hola! 👋 soy Nabil, argentino apasionado por el desarrollo web y la
-          tecnología. Me encanta enfrentar nuevos desafíos que me ayuden a
-          seguir mejorando como programador. Me considero una persona
-          responsable, comprometida y busco ser el mejor desarrollador del
-          mundo!!!
+          tecnología. Actualmente me estoy capacitando para ser
+          <RoughNotation
+            animate={false}
+            type='circle'
+            color='#f5522e'
+            show={true}
+            padding={[10, 10, 10, 10]}
+          >
+            <span className='span-circle'> Frontend developer</span>
+          </RoughNotation>
+          . Me encanta enfrentar nuevos desafíos que me ayuden a seguir
+          mejorando como programador. Me considero una persona responsable,
+          comprometida y busco ser el mejor desarrollador del mundo!!!
         </p>
       </div>
     </div>
