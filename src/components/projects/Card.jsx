@@ -3,7 +3,7 @@ import './Projects.css'
 
 export function Card ({ image, alt, title, description, link, tech }) {
   const icon = tech.map(e => {
-    return (<img title={e[0].name} src={e[0].icons} alt="img" className='svg' />)
+    return (<img key={e[0].name} title={e[0].name} src={e[0].icons} alt="img" className='svg' />)
   })
   return (
     <div className="container">

@@ -109,7 +109,8 @@ img {
   display: flex;
   justify-content: center;
   background-color: #e2e2e2;
-  padding: 0.5rem;
+  padding: 10px;
+  text-align: center;
 }
 .frase span {
   font-family: 'Kaushan Script', cursive;
@@ -124,5 +125,34 @@ img {
 @media screen and (max-width: 960px) {
   .container-projects {
     flex-direction: column;
+  }
+  .container-cover > h1 {
+    line-height: 7rem;
+    padding-bottom: 3rem;
+  }
+  .container-cover > p {
+    font-size: 2rem;
+  }
+  .frase {
+    padding: 1rem;
+  }
+  .frase img {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .container-cover > h1 {
+    line-height: 7rem;
+    padding-bottom: 3rem;
+  }
+  .container-cover > p {
+    font-size: 25px;
+  }
+  .frase span {
+    text-align: center;
+    font-size: 25px;
+  }
+  .frase img {
+    margin-left: 0;
   }
 }
