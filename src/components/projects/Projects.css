@@ -126,6 +126,9 @@ img {
   .container-projects {
     flex-direction: column;
   }
+  .cards {
+    width: 90%;
+  }
   .container-cover > h1 {
     line-height: 7rem;
     padding-bottom: 3rem;
@@ -144,6 +147,18 @@ img {
   .container-cover > h1 {
     line-height: 7rem;
     padding-bottom: 3rem;
+  }
+  .container-projects h2 {
+    margin-left: 2rem;
+  }
+  .cards {
+    margin-left: 2rem;
+  }
+  .square {
+    width: 270px;
+  }
+  img {
+    width: 270px;
   }
   .container-cover > p {
     font-size: 25px;

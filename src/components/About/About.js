@@ -1,6 +1,5 @@
 import React from 'react'
 import './About.css'
-import Perfil from '../../media/perfil.png'
 
 const About = () => {
   return (
@@ -14,7 +13,11 @@ const About = () => {
       <div className='description'>
         <h3>Te cuento un poco sobre mi..</h3>
         <p>
-          Hola! 👋 soy Nabil, argentino apasionado por el desarrollo web y la tecnología. Me encanta enfrentar nuevos desafíos que me ayuden a seguir mejorando como programador. Me considero una persona responsable, comprometida y busco ser el mejor desarrollador del mundo!!!
+          Hola! 👋 soy Nabil, argentino apasionado por el desarrollo web y la
+          tecnología. Me encanta enfrentar nuevos desafíos que me ayuden a
+          seguir mejorando como programador. Me considero una persona
+          responsable, comprometida y busco ser el mejor desarrollador del
+          mundo!!!
         </p>
       </div>
     </div>
