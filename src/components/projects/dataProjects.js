@@ -2,7 +2,7 @@ const dataProjects = [
   {
     id: '3',
     image:
-      'https://res.cloudinary.com/demf45vva/image/upload/v1676554046/weather2_h4ji7y.jpg',
+      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,w_390/v1676554046/weather2_h4ji7y.jpg',
     alt: 'weather img',
     title: 'Weather App',
     description:
@@ -13,7 +13,7 @@ const dataProjects = [
   {
     id: '4',
     image:
-      'https://res.cloudinary.com/demf45vva/image/upload/v1677641404/Sin_t%C3%ADtulo_ktf0ak.jpg',
+      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_205,w_390/v1677641404/Sin_t%C3%ADtulo_ktf0ak.jpg',
     alt: 'spotify img',
     title: 'Spotify Clone',
     description:
@@ -24,7 +24,7 @@ const dataProjects = [
   {
     id: '1',
     image:
-      'https://res.cloudinary.com/demf45vva/image/upload/v1664404866/nomade_portada_dyky1m.jpg',
+      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_205,w_390/v1677853434/nomade-foto_j2oluu.jpg',
     alt: 'nomade img',
     title: 'Nómade',
     description:
@@ -45,7 +45,7 @@ const dataProjects = [
   {
     id: '2',
     image:
-      'https://res.cloudinary.com/demf45vva/image/upload/v1664404892/countries_portada_cn8upv.jpg',
+      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1664404892/countries_portada_cn8upv.jpg',
     alt: 'countries img',
     title: 'Countries App',
     description:

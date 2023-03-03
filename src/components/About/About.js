@@ -1,5 +1,5 @@
 import React from 'react'
-import { RoughNotation, RoughNotationGroup } from 'react-rough-notation'
+import { RoughNotation } from 'react-rough-notation'
 import './About.css'
 
 const About = () => {
@@ -17,17 +17,18 @@ const About = () => {
           Hola! 👋 soy Nabil, argentino apasionado por el desarrollo web y la
           tecnología. Actualmente me estoy capacitando para ser
           <RoughNotation
-            animate={false}
-            type='circle'
+            animate={true}
+            animationDuration={3000}
+            type='underline'
             color='#f5522e'
             show={true}
-            padding={[10, 10, 10, 10]}
+            multiline={true}
           >
             <span className='span-circle'> Frontend developer</span>
           </RoughNotation>
-          . Me encanta enfrentar nuevos desafíos que me ayuden a seguir
-          mejorando como programador. Me considero una persona responsable,
-          comprometida y busco ser el mejor desarrollador del mundo!!!
+          . Me encanta afrontar nuevos desafíos para seguir mejorando como
+          programador. Me considero una persona responsable, comprometida y
+          busco ser el mejor desarrollador del mundo!!!
         </p>
       </div>
     </div>

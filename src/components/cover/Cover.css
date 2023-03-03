@@ -19,6 +19,7 @@
   color: white;
   font-size: 100px;
   font-family: 'Rock Salt', cursive;
+  text-shadow: -1px 4px 6px #abaaaa;
 }
 .container-cover > p {
   color: #ffaa95;

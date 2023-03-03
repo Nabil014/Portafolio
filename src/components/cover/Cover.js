@@ -1,12 +1,11 @@
 import React from 'react'
 import './Cover.css'
-import coverVideo from '../../media/coverVideo.mp4'
 const Cover = () => {
   return (
     <div className='container-cover'>
       <video
         className='video'
-        src={coverVideo}
+        src='https://res.cloudinary.com/demf45vva/video/upload/q_50/v1677855323/coverVideo_pp7vav.mp4'
         autoPlay
         loop
         muted

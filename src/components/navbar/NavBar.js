@@ -1,7 +1,5 @@
 import React from 'react'
 import './NavBar.css'
-
-import logo from '../../media/logo portafolio2.png'
 import { motion, useSpring } from 'framer-motion'
 
 const NavBar = ({ scrolling }) => {
@@ -22,7 +20,7 @@ const NavBar = ({ scrolling }) => {
         onClick={scrollTop}
       >
         <img
-          src={logo}
+          src='https://res.cloudinary.com/demf45vva/image/upload/v1677851460/logoPortafolio2_zerauc.png'
           alt='img'
         />
       </div>
