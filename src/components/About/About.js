@@ -14,19 +14,29 @@ const About = () => {
       <div className='description'>
         <h3>Te cuento un poco sobre mi..</h3>
         <p>
-          Hola! 👋 soy Nabil, argentino apasionado por el desarrollo web y la
-          tecnología. Actualmente me estoy capacitando para ser
+          Hola! 👋 soy
           <RoughNotation
             animate={true}
-            animationDuration={3000}
-            type='underline'
-            color='#f5522e'
+            type='highlight'
+            color='#FF8C72'
             show={true}
             multiline={true}
           >
+            <span className='span-circle'> Nabil</span>
+          </RoughNotation>
+          , argentino apasionado por el desarrollo web y la tecnología.
+          Actualmente me estoy capacitando para ser
+          <RoughNotation
+            animate={true}
+            type='highlight'
+            color='#FF8C72'
+            show={true}
+            multiline={true}
+            padding={[20, 20, 20, 30]}
+          >
             <span className='span-circle'> Frontend developer</span>
           </RoughNotation>
-          . Me encanta afrontar nuevos desafíos para seguir mejorando como
+          . Me encanta enfrentar nuevos desafíos para seguir mejorando como
           programador. Me considero una persona responsable, comprometida y
           busco ser el mejor desarrollador del mundo!!!
         </p>

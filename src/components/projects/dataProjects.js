@@ -6,7 +6,7 @@ const dataProjects = [
     alt: 'weather img',
     title: 'Weather App',
     description:
-      'Página web para visualizar información meteorológica y detalles específicos de diversas ciudades en todo el mundo',
+      'Página web para visualizar información meteorológica y detalles específicos de diversas ciudades en todo el mundo.',
     link: 'https://weather-app-beta-roan.vercel.app/',
     tech: ['JavaScript', 'React', 'Tailwind', 'GitHub'],
   },
@@ -28,7 +28,7 @@ const dataProjects = [
     alt: 'nomade img',
     title: 'Nómade',
     description:
-      ' Nómade te ofrece una experiencia única como viajero, puedes encontrar hospedajes en cualquier parte del mundo o también puedes convertirte en anfitrión, promueve tu emprendimiento de alojamientos para generar ingresos.',
+      'Nómade te ofrece una experiencia única como viajero, puedes encontrar hospedajes en cualquier parte del mundo o también puedes convertirte en anfitrión, promueve tu emprendimiento de alojamientos para generar ingresos.',
     link: 'https://nomade-khaki.vercel.app/',
     tech: [
       'JavaScript',
@@ -49,7 +49,7 @@ const dataProjects = [
     alt: 'countries img',
     title: 'Countries App',
     description:
-      'Es una app que permite recorrer todos los países del mundo para conocer sus características como así también poder crear distintas actividades. ',
+      'Es una app que permite recorrer todos los países del mundo para conocer sus características como así también poder crear distintas actividades.',
     link: 'https://pi-countries-main-tau.vercel.app/',
     tech: [
       'JavaScript',
