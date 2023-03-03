@@ -22,10 +22,13 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 4rem;
+  align-self: center;
+  margin-left: 4rem;
+  gap: 2rem;
 }
 
 .item {
-  flex: 50%;
+  flex: 25% 3;
 }
 
 .container {
