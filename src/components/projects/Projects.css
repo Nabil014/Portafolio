@@ -145,7 +145,7 @@ img {
     margin-left: 25px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 420px) {
   .container-cover > h1 {
     line-height: 7rem;
     padding-bottom: 3rem;
