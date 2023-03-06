@@ -12,6 +12,13 @@ const Cover = () => {
       />
       <h1>Nabil Allis</h1>
       <p>&lt; Full Stack Developer /&gt;</p>
+      <div className='scroll'>
+        <img
+          src='/icons/avance-rapido.gif'
+          alt='img'
+          className='scroll-icon'
+        ></img>
+      </div>
     </div>
   )
 }

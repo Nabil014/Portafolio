@@ -26,6 +26,18 @@
   font-size: 32px;
   font-family: 'Kaushan Script', cursive;
 }
+.scroll {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+}
+.scroll-icon {
+  transform: rotate(90deg);
+  width: 40px;
+  position: absolute;
+  bottom: 20px;
+  border-radius: 9999px;
+}
 
 @media only screen and (max-width: 960px) {
   .container-cover > h1 {
