@@ -14,13 +14,14 @@ const About = () => {
       <div className='description'>
         <h3>Te cuento un poco sobre mi..</h3>
         <p>
-          Hola! 👋 soy
+          ¡Hola! 👋 Soy
           <RoughNotation
             animate={true}
             type='highlight'
             color='#FF8C72'
             show={true}
             multiline={true}
+            padding={[20, 20, 20, 30]}
           >
             <span className='span-circle'> Nabil</span>
           </RoughNotation>
@@ -32,7 +33,7 @@ const About = () => {
             color='#FF8C72'
             show={true}
             multiline={true}
-            padding={[20, 20, 20, 30]}
+            padding={[60, 20, 20, 60]}
           >
             <span className='span-circle'> Frontend developer</span>
           </RoughNotation>

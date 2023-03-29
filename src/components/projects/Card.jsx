@@ -7,13 +7,13 @@ export function Card ({ image, alt, title, description, link, tech }) {
   })
   return (
     <div className="container">
-      <div className="square">
-        <a
-          href={link}
-          target='_blank'
-          rel='noreferrer'
-          style={{ textDecoration: 'none' }}
-        >
+      <a
+        href={link}
+        target='_blank'
+        rel='noreferrer'
+        style={{ textDecoration: 'none' }}
+      >
+        <div className="square">
           <img src={image} className="mask" alt={alt} />
           <div className="text">
             <h2>{title}</h2>
@@ -23,8 +23,8 @@ export function Card ({ image, alt, title, description, link, tech }) {
               {icon}
             </div>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   )
 }

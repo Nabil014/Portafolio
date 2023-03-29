@@ -17,3 +17,6 @@
   background: whitesmoke;
   border-radius: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
