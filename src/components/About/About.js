@@ -21,12 +21,12 @@ const About = () => {
             color='#FF8C72'
             show={true}
             multiline={true}
-            padding={[20, 20, 20, 30]}
+            // padding={[20, 20, 20]}
           >
-            <span className='span-circle'> Nabil</span>
+            <span className='span-circle'> Nabil </span>
           </RoughNotation>
-          , argentino apasionado por el desarrollo web y la tecnología.
-          Actualmente me estoy capacitando para ser
+          , argentino con experiencia en el mundo del desarrollo web y la
+          tecnología. Actualmente me estoy capacitando para ser
           <RoughNotation
             animate={true}
             type='highlight'
@@ -35,11 +35,11 @@ const About = () => {
             multiline={true}
             padding={[60, 20, 20, 60]}
           >
-            <span className='span-circle'> Frontend developer</span>
+            <span className='span-circle'> Frontend developer. </span>
           </RoughNotation>
-          . Me encanta enfrentar nuevos desafíos para seguir mejorando como
-          programador. Me considero una persona responsable, comprometida y
-          busco ser el mejor desarrollador del mundo!!!
+          Mejorando día a día para enfrentar nuevos desafíos. Me considero una
+          persona responsable, comprometida y busco ser el mejor desarrollador
+          del mundo!!!
         </p>
       </div>
     </div>
