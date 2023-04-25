@@ -14,7 +14,7 @@ const About = () => {
       <div className='description'>
         <h3>Te cuento un poco sobre mi..</h3>
         <p>
-          ¡Hola! 👋 Soy
+          ¡Hola Mundo! 👋 Soy
           <RoughNotation
             animate={true}
             type='highlight'
