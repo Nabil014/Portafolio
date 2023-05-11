@@ -17,7 +17,7 @@ const dataProjects = [
     alt: 'spotify img',
     title: 'Spotify Clone',
     description:
-      'Una Landing page de Spotify desarrollada utilizando la biblioteca de diseño Tailwind CSS. La página cuenta con una interfaz moderna y atractiva que sigue la estética minimalista y elegante de Spotify.',
+      'Landing page de Spotify desarrollada utilizando la biblioteca de diseño Tailwind CSS. La página cuenta con una interfaz moderna y atractiva que sigue la estética minimalista y elegante de Spotify.',
     link: 'https://clon-spotify-beta.vercel.app/',
     tech: ['JavaScript', 'Next', 'Tailwind'],
   },
@@ -28,7 +28,7 @@ const dataProjects = [
     alt: 'nomade img',
     title: 'Nómade',
     description:
-      'Nómade te ofrece una experiencia única como viajero, puedes encontrar hospedajes en cualquier parte del mundo o también puedes convertirte en anfitrión, promueve tu emprendimiento de alojamientos para generar ingresos.',
+      'App para contratar hospedajes en cualquier parte del mundo ó también puedes ser  anfitrión. Integración de mapas, pasarela de pagos, admin page y más!',
     link: 'https://nomade-khaki.vercel.app/',
     tech: [
       'JavaScript',
@@ -49,7 +49,7 @@ const dataProjects = [
     alt: 'countries img',
     title: 'Countries App',
     description:
-      'Es una app que permite recorrer todos los países del mundo para conocer sus características como así también poder crear distintas actividades.',
+      'App que permite recorrer todos los países del mundo para conocer sus características como así también poder crear distintas actividades.',
     link: 'https://pi-countries-main-tau.vercel.app/',
     tech: [
       'JavaScript',
@@ -62,6 +62,16 @@ const dataProjects = [
       'GitHub',
       'Redux',
     ],
+  },
+  {
+    id: '5',
+    image:
+      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1683816461/sorteos_zvumbi.jpg',
+    alt: 'sorteos img',
+    title: 'Sorteos App',
+    description: 'App para cargar participantes y realizar sorteos.',
+    link: 'https://sorteos-app.vercel.app/',
+    tech: ['JavaScript', 'React', 'CSS', 'Tailwind', 'GitHub'],
   },
 ]
 
