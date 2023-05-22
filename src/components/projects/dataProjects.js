@@ -30,17 +30,7 @@ const dataProjects = [
     description:
       'App para contratar hospedajes en cualquier parte del mundo ó también puedes ser  anfitrión. Integración de mapas, pasarela de pagos, admin page y más!',
     link: 'https://nomade-khaki.vercel.app/',
-    tech: [
-      'JavaScript',
-      'React',
-      'CSS',
-      'MongoDB',
-      'Node',
-      'Express',
-      'Redux',
-      'Git',
-      'GitHub',
-    ],
+    tech: ['JavaScript', 'React', 'CSS', 'MongoDB', 'Node', 'Redux', 'Git'],
   },
   {
     id: '2',
@@ -51,17 +41,7 @@ const dataProjects = [
     description:
       'App que permite recorrer todos los países del mundo para conocer sus características como así también poder crear distintas actividades.',
     link: 'https://pi-countries-main-tau.vercel.app/',
-    tech: [
-      'JavaScript',
-      'React',
-      'Node',
-      'Express',
-      'CSS',
-      'PostgreSQL',
-      'Git',
-      'GitHub',
-      'Redux',
-    ],
+    tech: ['JavaScript', 'React', 'Node', 'CSS', 'PostgreSQL', 'Git', 'Redux'],
   },
   {
     id: '5',
@@ -71,7 +51,7 @@ const dataProjects = [
     title: 'Sorteos App',
     description: 'App para cargar participantes y realizar sorteos.',
     link: 'https://sorteos-app.vercel.app/',
-    tech: ['JavaScript', 'React', 'CSS', 'Tailwind', 'GitHub'],
+    tech: ['JavaScript', 'React', 'Tailwind', 'GitHub'],
   },
 ]
 

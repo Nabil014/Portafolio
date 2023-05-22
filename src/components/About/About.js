@@ -25,8 +25,8 @@ const About = () => {
           >
             <span className='span-circle'> Nabil </span>
           </RoughNotation>
-          , argentino con experiencia en el mundo del desarrollo web y la
-          tecnología. Actualmente me estoy capacitando para ser
+          , argentino, con experiencia en el mundo del desarrollo web y la
+          tecnología.
           <RoughNotation
             animate={true}
             type='highlight'
@@ -35,11 +35,12 @@ const About = () => {
             multiline={true}
             padding={[60, 20, 20, 60]}
           >
-            <span className='span-circle'> Frontend developer. </span>
+            <span className='span-circle'> Full Stack Developer </span>
           </RoughNotation>
-          Mejorando día a día para enfrentar nuevos desafíos. Me considero una
-          persona responsable, comprometida y busco ser el mejor desarrollador
-          del mundo!!!
+          y actualmente me estoy capacitando para ser Frontend pero sin
+          descuidar el Backend. Mejorando día a día como programador para
+          enfrentar nuevos desafíos. Me considero responsable, comprometido y
+          busco ser el mejor desarrollador del mundo!!!
         </p>
       </div>
     </div>
