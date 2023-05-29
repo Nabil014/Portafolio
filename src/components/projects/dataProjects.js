@@ -36,6 +36,17 @@ const dataProjects = [
     stack: 'Frontend',
   },
   {
+    id: '6',
+    image:
+      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1685367550/spaceApp_d1ojrk.jpg',
+    alt: 'space img',
+    title: 'Space Info',
+    description: 'Página web para una empresa de turismo espacial',
+    link: 'https://space-app-coral.vercel.app/',
+    tech: ['JavaScript', 'React', 'Tailwind', 'GitHub'],
+    stack: 'Frontend',
+  },
+  {
     id: '2',
     image:
       'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1664404892/countries_portada_cn8upv.jpg',
@@ -55,18 +66,6 @@ const dataProjects = [
     title: 'Sorteos App',
     description: 'App para cargar participantes y realizar sorteos.',
     link: 'https://sorteos-app.vercel.app/',
-    tech: ['JavaScript', 'React', 'Tailwind', 'GitHub'],
-    stack: 'Frontend',
-  },
-  {
-    id: '6',
-    image:
-      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1685367550/spaceApp_d1ojrk.jpg',
-    alt: 'space img',
-    title: 'Space Info',
-    description:
-      'App para conocer información sobre planetas e investigadores.',
-    link: 'https://space-app-coral.vercel.app/',
     tech: ['JavaScript', 'React', 'Tailwind', 'GitHub'],
     stack: 'Frontend',
   },
