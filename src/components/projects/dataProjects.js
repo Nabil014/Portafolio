@@ -47,6 +47,17 @@ const dataProjects = [
     stack: 'Frontend',
   },
   {
+    id: '7',
+    image:
+      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1685535960/dolar-app_eehswv.jpg',
+    alt: 'dolar img',
+    title: 'Dollar Converter',
+    description: 'Página convertir de $ARG a USD',
+    link: 'https://dollar-app-chi.vercel.app/',
+    tech: ['JavaScript', 'React', 'Tailwind', 'GitHub'],
+    stack: 'Frontend',
+  },
+  {
     id: '2',
     image:
       'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1664404892/countries_portada_cn8upv.jpg',
