@@ -6,7 +6,7 @@ const dataProjects = [
     alt: 'nomade img',
     title: 'Nómade',
     description:
-      'App para contratar hospedajes en cualquier parte del mundo ó también puedes ser  anfitrión. Integración de mapas, pasarela de pagos, admin page y más!',
+      'Single Page Application (SPA) para contratar hospedajes en cualquier parte del mundo ó también puedes ser  anfitrión. Integración de mapas, pasarela de pagos, admin page y más!',
     link: 'https://nomade-khaki.vercel.app/',
     tech: ['JavaScript', 'React', 'CSS', 'MongoDB', 'Node', 'Redux', 'Git'],
     stack: 'Full Stack',
@@ -41,7 +41,7 @@ const dataProjects = [
       'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1685367550/spaceApp_d1ojrk.jpg',
     alt: 'space img',
     title: 'Space Info',
-    description: 'Página web para una empresa de turismo espacial',
+    description: 'SPA para una empresa de turismo espacial',
     link: 'https://space-app-coral.vercel.app/',
     tech: ['JavaScript', 'React', 'Tailwind', 'GitHub'],
     stack: 'Frontend',
@@ -64,7 +64,7 @@ const dataProjects = [
     alt: 'countries img',
     title: 'Countries App',
     description:
-      'App que permite recorrer todos los países del mundo para conocer sus características como así también poder crear distintas actividades.',
+      'SPA que permite recorrer todos los países del mundo para conocer sus características como así también poder crear distintas actividades.',
     link: 'https://pi-countries-main-tau.vercel.app/',
     tech: ['JavaScript', 'React', 'Node', 'CSS', 'PostgreSQL', 'Git', 'Redux'],
     stack: 'Full Stack',
