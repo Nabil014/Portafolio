@@ -37,7 +37,7 @@
 .description p {
   line-height: 1.3;
   font-size: 1.5rem;
-  font-family: 'Shantell Sans', cursive;
+  font-family: 'system-ui';
   font-weight: 300;
   color: rgb(66, 66, 66);
 }
