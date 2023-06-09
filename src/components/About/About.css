@@ -1,3 +1,17 @@
+:root {
+  --shadow-color: 16deg 36% 49%;
+  --shadow-elevation-low: -0.7px 0.4px 1px hsl(var(--shadow-color) / 0.37),
+    -3.2px 1.9px 4.8px -1.4px hsl(var(--shadow-color) / 0.64);
+  --shadow-elevation-medium: -0.7px 0.4px 1px hsl(var(--shadow-color) / 0.35),
+    -4.7px 2.8px 7px -0.7px hsl(var(--shadow-color) / 0.51),
+    -16.1px 9.7px 24.1px -1.4px hsl(var(--shadow-color) / 0.68);
+  --shadow-elevation-high: -0.7px 0.4px 1px hsl(var(--shadow-color) / 0.38),
+    -10.9px 6.6px 16.3px -0.4px hsl(var(--shadow-color) / 0.5),
+    -23.4px 14.2px 35.1px -0.7px hsl(var(--shadow-color) / 0.61),
+    -46.7px 28.2px 70px -1.1px hsl(var(--shadow-color) / 0.72),
+    -88.8px 53.6px 133px -1.4px hsl(var(--shadow-color) / 0.83);
+}
+
 .container-about {
   display: flex;
   flex-direction: row;
@@ -16,7 +30,7 @@
 .fotoPerfil > img {
   width: 15vw;
   border-radius: 20px 20px 20px 20px;
-  box-shadow: -3px 3px 3px 2px #f5522e;
+  box-shadow: var(--shadow-elevation-medium);
 }
 
 .description {
