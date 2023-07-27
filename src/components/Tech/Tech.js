@@ -11,4 +11,5 @@ export const techs = [
   { name: 'PostgreSQL', icons: '/icons/postgresql-svgrepo-com.svg' },
   { name: 'GitHub', icons: '/icons/github-svgrepo-com.svg' },
   { name: 'Next', icons: '/icons/next-js-svgrepo-com.svg' },
+  { name: 'Zustand', icons: '/icons/zustand.webp' },
 ]

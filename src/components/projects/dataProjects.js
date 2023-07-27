@@ -6,9 +6,29 @@ const dataProjects = [
     alt: 'nomade img',
     title: 'Nómade',
     description:
-      'Single Page Application (SPA) para contratar hospedajes en cualquier parte del mundo ó también puedes ser  anfitrión. Integración de mapas, pasarela de pagos, admin page y más!',
+      'Single Page Application (SPA) con integración de mapas, pasarela de pagos, admin page,etc. para contratar hospedajes en cualquier parte del mundo ó también puedes ser anfitrión.',
     link: 'https://nomade-khaki.vercel.app/',
     tech: ['JavaScript', 'React', 'CSS', 'MongoDB', 'Node', 'Redux', 'Git'],
+    stack: 'Full Stack',
+  },
+  {
+    id: '2',
+    image:
+      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_205,w_390/v1690415226/Countries-tour_qjg8nf.png',
+    alt: 'countries img',
+    title: 'Countries Tour',
+    description:
+      'REST API y SPA con filtros, básqueda y ordenamiento para buscar información sobre países y distintas actividades.',
+    link: 'https://countries-tour.vercel.app/',
+    tech: [
+      'JavaScript',
+      'React',
+      'Node',
+      'Tailwind',
+      'PostgreSQL',
+      'GitHub',
+      'Zustand',
+    ],
     stack: 'Full Stack',
   },
   {
@@ -56,18 +76,6 @@ const dataProjects = [
     link: 'https://dollar-app-chi.vercel.app/',
     tech: ['JavaScript', 'React', 'Tailwind', 'GitHub'],
     stack: 'Frontend',
-  },
-  {
-    id: '2',
-    image:
-      'https://res.cloudinary.com/demf45vva/image/upload/c_scale,h_206,w_390/v1664404892/countries_portada_cn8upv.jpg',
-    alt: 'countries img',
-    title: 'Countries App',
-    description:
-      'SPA que permite recorrer todos los países del mundo para conocer sus características como así también poder crear distintas actividades.',
-    link: 'https://pi-countries-main-tau.vercel.app/',
-    tech: ['JavaScript', 'React', 'Node', 'CSS', 'PostgreSQL', 'Git', 'Redux'],
-    stack: 'Full Stack',
   },
   {
     id: '5',
