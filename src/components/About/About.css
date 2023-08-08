@@ -12,6 +12,38 @@
     -88.8px 53.6px 133px -1.4px hsl(var(--shadow-color) / 0.83);
 }
 
+.availability {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.availability-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 5px;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 128, 0, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(0, 128, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 128, 0, 0);
+  }
+}
+
+.availability-text {
+  font-family: system-ui;
+  font-weight: 500;
+}
+
 .container-about {
   display: flex;
   flex-direction: row;
