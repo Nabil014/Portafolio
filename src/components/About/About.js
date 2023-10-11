@@ -25,7 +25,7 @@ const About = () => {
             <span className='span-circle'>Nabil</span>
           </RoughNotation>
           , argentino con experiencia como desarrollador Freelance.
-          <p>
+          <span>
             Como
             <RoughNotation
               animate={true}
@@ -39,7 +39,7 @@ const About = () => {
             me especializo en crear y diseñar aplicaciones web que luzcan
             geniales, con una buena experiencia de usuario, además de crear el
             Backend para un desarrollo completo.
-          </p>
+          </span>
         </p>
         <div className='availability'>
           <div className='availability-circle'></div>
